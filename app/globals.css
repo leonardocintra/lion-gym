@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-primary: #FFD700;
+  --color-primary-dark: #D4AF37;
+  --color-background-dark: #121212;
+  --color-surface-dark: #1E1E1E;
+  --color-surface-highlight: #262626;
+  --color-text-muted: #a3a3a3;
+  --font-display: var(--font-lexend);
+}
+
+@layer base {
+  body {
+    @apply bg-background-dark text-slate-100 font-display min-h-screen flex flex-col antialiased;
+  }
+}
